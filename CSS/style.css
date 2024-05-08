@@ -71,3 +71,30 @@ img[alt='Chelsea']{
     text-align: center;
     font-style:  italic;
 }
+
+#about{
+    
+    background-image: url(https://chelsea-julie.github.io/all-images/images/IMG.4jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin-block:  5rem;
+    border-radius: 2rem;
+    padding-block: 5rem;
+    & h2{
+        text-align: center;
+        padding-bottom: 5rem;
+        font-family: "Vesper Libre", serif;
+        font-style: italic;
+    }
+    
+    & .paragraph{
+        background-color: rgb(255, 255, 255, 0.5);
+        width: 90%;
+        margin: auto;
+        color: var(--amazing);
+        border-radius: 2rem;
+        padding-block: 2.5rem;
+        font-size: larger;
+    }
+    
+}
