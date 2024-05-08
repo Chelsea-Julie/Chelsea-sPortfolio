@@ -122,7 +122,7 @@ img[alt='Chelsea']{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.card{
+#education .card{
     cursor: pointer;
     background-color: var(--alternative);
     perspective: 1000px;
@@ -149,8 +149,11 @@ img[alt='Chelsea']{
   }
 
 img[alt="graduation"]{
-    padding: 2rem;
+    padding-inline:  2rem;
+    padding-top:  2rem;
+    padding-bottom: 1rem;
     border-radius: 3rem;
+    height: 20rem;
 }
  
 .cardfront{
@@ -159,12 +162,12 @@ img[alt="graduation"]{
     
 }
 
-.card1{
+#education .card1{
     padding-left: 15rem;
 
 }
 
-.card2{
+#education .card2{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -214,4 +217,40 @@ img[alt="lclogo"]{
     height: 3rem;
     border-radius: 2rem;
 }
+
+#skills{
+    background-color: var(--alternative);
+    margin-block: 4rem;
+    border-radius: 2.1rem;
+
+
+    & h2{
+        text-align: center;
+        font-family: "Vesper Libre", serif;
+        font-style: italic;
+        padding-top: 2rem;
+        
+    }
+}
+
+#skills .card{
+    background-color: var(--cardBowShadow);
+    margin-block: 4rem;
+    border-top-left-radius:2rem ;
+    border-bottom-right-radius:2rem ;
+    height: 10rem;
+    & .card-body{
+        text-align: center;
+        font-style: italic;
+        font-size: large;
+        font-weight: 500;
+        
+    }
+    &:hover{
+        transition: all, .5s;
+        transform: scale(1.2);
+
+}
+}
+
 
