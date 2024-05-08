@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 
 *,
 *::before,
@@ -43,6 +44,10 @@ body{
     background-color: var(--secondary);
 }
 
+.navbar{
+    position: sticky;
+}
+
 .navbar .collapse a{
     transition: all, .2s;
     &:hover{
@@ -65,33 +70,4 @@ img[alt='Chelsea']{
     margin: auto;
     text-align: center;
     font-style:  italic;
-    /* font-size: 20rem; */ 
 }
-#about{
-    
-    background-image: url(https://chelsea-julie.github.io/all-images/images/IMG.4jpg);
-    background-repeat: no-repeat;
-    background-position-y: center;
-    margin-block:  5rem;
-    border-radius: 2rem;
-    padding-block: 5rem;
-    & h2{
-        text-align: center;
-        padding-bottom: 5rem;
-        font-family: "Vesper Libre", serif;
-        font-style: italic;
-    }
-    
-    & .paragraph{
-        background-color: rgb(255, 255, 255, 0.5);
-        width: 90%;
-        margin: auto;
-        color: var(--amazing);
-        border-radius: 2rem;
-        padding-block: 2.5rem;
-        font-size: larger;
-    }
-    
-}
-
-
