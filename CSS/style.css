@@ -57,7 +57,6 @@ section {
 }
 
 img[alt='Chelsea']{
-    margin: 2rem;
     aspect-ratio: 1/1;
     width: 30rem;
     object-fit: cover;
@@ -71,6 +70,7 @@ img[alt='Chelsea']{
     text-align: center;
     font-style:  italic;
 }
+
 
 #about{
     
@@ -263,7 +263,33 @@ img[alt="lclogo"]{
 }
 
 img[alt="lca"]{
-    height: 18rem;
+    
+    width: auto;
+    height: 15rem;
+    padding-block: 3rem;
 }
 
+#projects{
+    background-color: var(--alternative);
+    margin-block: 4rem;
+    border-radius: 2.1rem;
+    & h2{
+        text-align: center;
+        font-family: "Vesper Libre", serif;
+        font-style: italic;
+        padding-top: 2rem;
+    }
+    & .card-body{
+        background-color: var(--cardBowShadow);
+        height: 15rem;
+        border-radius: 1rem;
 
+    }
+
+
+    & img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+}
