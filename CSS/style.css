@@ -109,6 +109,7 @@ img[alt='Chelsea']{
         font-family: "Vesper Libre", serif;
         font-style: italic;
 
+
     }
 }
 
@@ -259,6 +260,10 @@ img[alt="lclogo"]{
     }
 
 
+}
+
+img[alt="lca"]{
+    height: 18rem;
 }
 
 
