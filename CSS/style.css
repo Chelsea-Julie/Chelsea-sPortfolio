@@ -44,8 +44,8 @@ body{
     background-color: var(--secondary);
 }
 
-.navbar{
-    position: sticky;
+section {
+    scroll-margin-block: 8.6rem;
 }
 
 .navbar .collapse a{
@@ -59,7 +59,7 @@ body{
 img[alt='Chelsea']{
     margin: 2rem;
     aspect-ratio: 1/1;
-    width: 20rem;
+    width: 30rem;
     object-fit: cover;
     object-position: center;
     border-radius: 1rem;
@@ -99,125 +99,6 @@ img[alt='Chelsea']{
     
 }
 
-#education{
-    background-color: var(--alternative);
-    margin-block: 4rem;
-    border-radius: 2.1rem;
-    height: 30rem;
-    & h2{
-        text-align: center;
-        font-family: "Vesper Libre", serif;
-        font-style: italic;
-
-    }
-}
-
-.card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-#education .card{
-    cursor: pointer;
-    background-color: var(--alternative);
-    perspective: 1000px;
-    border-color: transparent;
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    
-}
-
-.card:hover .card-inner {
-    transform: rotateY(180deg);
-  }
-
-  .cardfront, .cardback {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 1rem;
-  }
-
-img[alt="graduation"]{
-    padding-inline:  2rem;
-    padding-top:  2rem;
-    padding-bottom: 1rem;
-    border-radius: 3rem;
-    height: 20rem;
-}
- 
-.cardfront{
-    background-color:var(--cardBowShadow);
-    color: black;
-    
-}
-
-#education .card1{
-    padding-left: 15rem;
-
-}
-
-#education .card2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 15rem;
-}
-
-.cardback{
-    background-color: var(--cardBowShadow);
-    color: white;
-    transform: rotateY(180deg);
-    display: flex;
-    color: var(--amazing);
-    & h2{
-        font-size: larger;
-        padding-top: 1rem;
-    }
-    
-}
-
-.strip{
-    display: flex;
-    align-items: flex-start;
-    writing-mode: vertical-lr;
-    width: 20%;
-    height: 22.7rem;
-    background-color: var(--primary);
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    & p{
-        text-orientation: upright;
-        color: var(--amazing);
-        /* transform: rotate(180deg); */
-        font-size: 2.5rem;
-        letter-spacing: 1rem;
-        font-weight: bold;
-        font-family: "Sedan SC", serif;
-
-    }
-}
-
-img[alt='cap']{
-    height: 3rem;
-
-}
-
-img[alt="lclogo"]{
-    height: 3rem;
-    border-radius: 2rem;
-}
-
 #skills{
     background-color: var(--alternative);
     margin-block: 4rem;
@@ -225,7 +106,8 @@ img[alt="lclogo"]{
 
 
     & h2{
-        text-align: center;
+        text-align:
+         center;
         font-family: "Vesper Libre", serif;
         font-style: italic;
         padding-top: 2rem;
@@ -251,6 +133,20 @@ img[alt="lclogo"]{
         transform: scale(1.2);
 
 }
+}
+
+#testimonials{
+    background-color: var(--alternative);
+    margin-block: 4rem;
+    border-radius: 2.1rem;
+    & h2{
+        text-align: center;
+        font-family: "Vesper Libre", serif;
+        font-style: italic;
+        padding-top: 2rem;
+    }
+
+
 }
 
 
