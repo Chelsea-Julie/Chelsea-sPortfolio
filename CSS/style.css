@@ -293,6 +293,26 @@ img[alt="lca"]{
         width: 5rem;
         height: 5rem;
         object-position: center;
+
     }
 
 }
+
+#testimonials{
+    background-color: var(--alternative);
+    margin-block: 4rem;
+    border-radius: 2.1rem;
+    & h2{
+        text-align: center;
+        font-family: "Vesper Libre", serif;
+        font-style: italic;
+        padding-top: 2rem;
+    }
+    & img{
+        height: 20rem;
+        width: 20rem;
+    }
+    
+
+}
+
