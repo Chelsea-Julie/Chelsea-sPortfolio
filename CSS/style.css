@@ -63,7 +63,7 @@ img[alt='Chelsea']{
     object-position: center;
     border-radius: 1rem;
 }
-
+  
 #julie{
     font-family: "Vesper Libre", serif;
     margin: auto;
@@ -281,8 +281,10 @@ img[alt="lca"]{
     }
     & .card-body{
         background-color: var(--cardBowShadow);
-        height: 15rem;
+        height: 20rem;
         border-radius: 1rem;
+        padding-bottom: 2rem;
+        margin: auto;
 
     }
 
@@ -290,6 +292,7 @@ img[alt="lca"]{
     & img{
         width: 5rem;
         height: 5rem;
+        object-position: center;
     }
 
 }
